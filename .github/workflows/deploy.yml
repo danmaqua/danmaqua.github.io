@@ -13,10 +13,28 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Build and Deploy
-      uses: grasilife/github-pages-deploy-action@v1.2
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: raw
-        BRANCH: master
-        FOLDER: docs/.vuepress/dist
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+
+    - name: Cache dependencies
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - run: npm ci
+
+    - run: npm run docs:build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.ACCESS_TOKEN }}
+        publish_dir: ./docs/.vuepress/dist
+        publish_branch: master
+        user_name: Siubeng Fung
+        user_email: fython@163.com
