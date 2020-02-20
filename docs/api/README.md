@@ -20,6 +20,8 @@
 - GitHub: [https://github.com/danmaqua/danmaqua-data](https://github.com/danmaqua/danmaqua-data)
 - Coding.net: [https://fython.coding.net/p/danmaqua/d/damaqua-data/git](https://fython.coding.net/p/danmaqua/d/damaqua-data/git)
 
+有关数据仓库使用、贡献文档请[查看](/api/data_repo.html)。
+
 ## 接口列表
 
 - [虚拟主播目录接口](/api/catalog.html)
