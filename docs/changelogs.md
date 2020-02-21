@@ -7,7 +7,7 @@
 - 允许添加启动字幕快捷方式到主屏幕。如果你的手机 Android 版本为 7.1 或更新，还可以设置至多三个最喜爱的主播，长按主屏幕的悬浮字幕图标可以展开快捷菜单
 - 推荐、目录接口优先使用 GitHub Pages，如果失败则改用 Coding.net
 - 接入 Firebase Performance SDK 以便改善应用，如果你不愿意分享应用性能情况帮助我们改善体验可随时设置关闭
-- 文档、帮助链接迁移到 <danmaqua.github.io>
+- 文档、帮助链接迁移到 <https://danmaqua.github.io>
 - 修复了部分崩溃问题
 - 纪念湊あくあ回归
 
