@@ -51,6 +51,10 @@ Coding.net 中国大陆数据仓库：[https://fython.coding.net/p/danmaqua/d/da
 
 目前仅支持 [新建 Issues](https://github.com/danmaqua/danmaqua-data/issues/new) 来进行修改。
 
+### 增加、更新过滤规则
+
+目前仅支持 [新建 Issues](https://github.com/danmaqua/danmaqua-data/issues/new) 来进行修改。
+
 ## 数据整理工具
 
 查看 [数据仓库内的工具文档](https://github.com/danmaqua/danmaqua-data/blob/master/tools/README.md)
