@@ -21,7 +21,16 @@ module.exports = {
                     introTitle: '介绍',
                     downloadTitle: '下载',
                     changelogsTitle: '更新日志',
-                    githubTitle: 'GitHub 仓库'
+                    githubTitle: 'GitHub 仓库',
+                    features: {
+                        title: '功能',
+                        subscription: '订阅主播',
+                        danmaku: '弹幕服务',
+                        filter: '弹幕过滤',
+                        floating: '悬浮窗',
+                        history: '弹幕历史',
+                        tips: '小技巧'
+                    }
                 })
             }
         }
