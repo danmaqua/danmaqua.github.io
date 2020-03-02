@@ -1,5 +1,5 @@
 function navBar({ 
-    introTitle, downloadTitle, githubTitle, changelogsTitle, features
+    introTitle, downloadTitle, githubTitle, changelogsTitle, features, otherVers
 }) {
     return [
         { text: introTitle, link: '/intro.html' },
@@ -16,6 +16,12 @@ function navBar({
         },
         { text: downloadTitle, link: '/download.html' },
         { text: changelogsTitle, link: '/changelogs.html' },
+        {
+            text: otherVers.title,
+            items: [
+                { text: otherVers.telegram, link: '/telegram/' }
+            ]
+        },
         { text: githubTitle, link: 'https://github.com/fython/danmaqua-android' },
     ]
 }

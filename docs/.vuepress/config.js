@@ -30,6 +30,10 @@ module.exports = {
                         floating: '悬浮窗',
                         history: '弹幕历史',
                         tips: '小技巧'
+                    },
+                    otherVers: {
+                        title: '其他版本',
+                        telegram: 'Telegram 版'
                     }
                 })
             }
