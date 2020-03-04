@@ -13,4 +13,6 @@
 
 ## 从应用商店获取
 
-待应用更完善后，将考虑上传至 Google Play 与酷安，敬请期待。
+Google Play 商店： <https://play.google.com/store/apps/details?id=moe.feng.danmaqua> （由于未接入 Google Play 内购功能，捐赠接口临时移除了）
+
+酷安市场： <https://www.coolapk.com/apk/256538>
