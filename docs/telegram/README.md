@@ -11,6 +11,7 @@ Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯�
 - 高槻りつ： [@dmq_takatsukiritsu](https://t.me/s/dmq_takatsukiritsu)
 - 夏色まつり： [@dmq_natsuiromatsuri](https://t.me/s/dmq_natsuiromatsuri)
 - 白上吹雪： [@dmq_shirakamifubuki](https://t.me/s/dmq_shirakamifubuki)
+- 神楽七奈： [@dmq_KaguraNana](https://t.me/dmq_KaguraNana)（由 WordlessEcho 提供、维护）
 - 欢迎其它维护者提交你的频道~
 
 ## 开发者
