@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/danmaqua/danmaqua.github.io#readme",
   "devDependencies": {
-    "vuepress": "^1.3.0"
+    "vuepress": "^1.3.0",
+    "acorn": ">=6.4.1"
   }
 }
