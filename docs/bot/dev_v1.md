@@ -1,26 +1,10 @@
-# Danmaqua Telegram Bot
-
-Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯用格式的弹幕转发到指定的群组或频道。
-
-## 使用说明
-
-`@danmaqua_bot` 是我们维护的一个现成实例，目前提供了湊あくあ、神楽めあ、夏色まつり、白上吹雪、高槻りつ的哔哩哔哩同传弹幕记录频道，可以在 [@danmaqua](https://t.me/danmaqua) 频道中找到最新的订阅地址和更新动态，或者点击下面的地址（不常更新）：
-
-- 湊あくあ： [@dmq_minatoaqua](https://t.me/s/dmq_minatoaqua)
-- 神楽めあ： [@dmq_kaguramea](https://t.me/s/dmq_kaguramea)
-- 高槻りつ： [@dmq_takatsukiritsu](https://t.me/s/dmq_takatsukiritsu)
-- 夏色まつり： [@dmq_natsuiromatsuri](https://t.me/s/dmq_natsuiromatsuri)
-- 白上吹雪： [@dmq_shirakamifubuki](https://t.me/s/dmq_shirakamifubuki)
-- 神楽七奈： [@dmq_KaguraNana](https://t.me/dmq_KaguraNana)（由 WordlessEcho 提供、维护）
-- 欢迎其它维护者提交你的频道~
-
-## 开发者
+# v1 开发文档
 
 你可以选择搭建自己的实例来提供其他 VTubers 的同传频道，或者为我们的 Bot 开发贡献你的力量。同时我们欢迎提交第三方的同传频道到 Telegram 频道 `@danmaqua` ，方便观众们寻找。
 
 项目源码： <https://github.com/danmaqua/danmaqua-telegrambot>
 
-### 运行自己的机器人实例
+## 运行自己的机器人实例
 
 保证运行环境安装有 Node.js 12+，并在 Telegram `@BotFather` 申请你自己的机器人帐号。
 
@@ -29,13 +13,13 @@ Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯�
 3. 首次运行前需要在项目根目录执行 `npm i` 安装必要的依赖
 4. 执行 `npm run bot` 即可启动机器人
 
-### 配置弹幕转发到群组或频道
+## 配置弹幕转发到群组或频道
 
 同传翻译弹幕的辨别以 `config.js` 内的正则表达式为准，请根据自己的需求进行设定。
 
 运行起来自己的实例之后，打开与机器人的 Telegram 聊天，首次使用需要点击 Start 开始对话。
 
-输入 `/subscribe [B 站房间号] [指定的群组/频道 ID]` ，B 站房间号即直播地址最后的一串 ID 而非用户 ID，指定的群组/频道 ID 为 Telegram 内部保存的一串纯数字 ID，你可能需要使用其它 ID 查询机器人来获取，如果你拥有 Android 手机，可以尝试安装 Nekogram 或其它可信任的第三方 Telegram 客户端，打开群组/频道资料页查看 ID。
+输入 `/subscribe [B 站房间号] [指定的群组/频道 ID]` ，B 站房间号即直播地址最后的一串 ID 而非用户 ID，指定的群组/频道 ID 为 Telegram 内部保存的一串纯数字 ID，你可能需要使用其它 ID 查询机器人来获取，如果你拥有 Android 手机，可以尝试安装 Plus Messenger 或其它可信任的第三方 Telegram 客户端，打开群组/频道资料页查看 ID。
 
 如果要取消订阅，输入 `/unsubscribe [指定的群组/频道 ID]` 即可，每个群组/频道只能订阅一个 B 站房间。
 
@@ -47,6 +31,6 @@ Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯�
 
 为了方便操作，转发群组/频道中机器人的弹幕消息（不支持机器人与用户的私人消息）到与机器人的私人聊天，可以打开操作菜单，目前只提供了屏蔽用户选项。
 
-### 贡献代码
+## 贡献代码
 
 本项目源码以 GPL v3 许可发布，欢迎对本项目提出 Issues 或 Pull Request。

@@ -19,7 +19,8 @@ function navBar({
         {
             text: otherVers.title,
             items: [
-                { text: otherVers.telegram, link: '/telegram/' }
+                { text: otherVers.userDoc, link: '/bot/' },
+                { text: otherVers.geekDoc, link: '/bot/dev.html' }
             ]
         },
         { text: githubTitle, link: 'https://github.com/fython/danmaqua-android' },

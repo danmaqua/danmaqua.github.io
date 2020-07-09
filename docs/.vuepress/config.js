@@ -32,8 +32,9 @@ module.exports = {
                         tips: '小技巧'
                     },
                     otherVers: {
-                        title: '其他版本',
-                        telegram: 'Telegram 版'
+                        title: 'Bot 版',
+                        userDoc: '我是观众，如何使用',
+                        geekDoc: '如何搭建自己的 Bot'
                     }
                 })
             }
