@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bot 配置说明 | 悬浮字幕</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="在 Android 上高亮显示直播翻译弹幕为悬浮字幕">
+    <link rel="preload" href="/assets/css/0.styles.06da0ae5.css" as="style"><link rel="preload" href="/assets/js/app.2362f748.js" as="script"><link rel="preload" href="/assets/js/2.f87f6062.js" as="script"><link rel="preload" href="/assets/js/9.2eef09dd.js" as="script"><link rel="prefetch" href="/assets/js/10.2b5c198d.js"><link rel="prefetch" href="/assets/js/11.1dd5e80b.js"><link rel="prefetch" href="/assets/js/12.a59fa598.js"><link rel="prefetch" href="/assets/js/13.b72ac7cd.js"><link rel="prefetch" href="/assets/js/14.473d41c8.js"><link rel="prefetch" href="/assets/js/15.3f3a784e.js"><link rel="prefetch" href="/assets/js/16.f4063c48.js"><link rel="prefetch" href="/assets/js/17.ce4e9ac9.js"><link rel="prefetch" href="/assets/js/18.73b84e59.js"><link rel="prefetch" href="/assets/js/19.9309602b.js"><link rel="prefetch" href="/assets/js/20.66f18446.js"><link rel="prefetch" href="/assets/js/21.985043df.js"><link rel="prefetch" href="/assets/js/22.4c7ef836.js"><link rel="prefetch" href="/assets/js/23.1dbf11cd.js"><link rel="prefetch" href="/assets/js/3.a9437305.js"><link rel="prefetch" href="/assets/js/4.ed332ec4.js"><link rel="prefetch" href="/assets/js/5.08ade83c.js"><link rel="prefetch" href="/assets/js/6.4cbc899f.js"><link rel="prefetch" href="/assets/js/7.f1b5cf68.js"><link rel="prefetch" href="/assets/js/8.f329cfd7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.06da0ae5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/danmaqua-logo.png" alt="悬浮字幕" class="logo"> <span class="site-name can-hide">悬浮字幕</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/intro.html" class="nav-link">
+  介绍
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能" class="dropdown-title"><span class="title">功能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/features/subscription.html" class="nav-link">
+  订阅主播
+</a></li><li class="dropdown-item"><!----> <a href="/features/danmaku.html" class="nav-link">
+  弹幕服务
+</a></li><li class="dropdown-item"><!----> <a href="/features/filter.html" class="nav-link">
+  弹幕过滤
+</a></li><li class="dropdown-item"><!----> <a href="/features/floating.html" class="nav-link">
+  悬浮窗
+</a></li><li class="dropdown-item"><!----> <a href="/features/history.html" class="nav-link">
+  弹幕历史
+</a></li><li class="dropdown-item"><!----> <a href="/features/tips.html" class="nav-link">
+  小技巧
+</a></li></ul></div></div><div class="nav-item"><a href="/download.html" class="nav-link">
+  下载
+</a></div><div class="nav-item"><a href="/changelogs.html" class="nav-link">
+  更新日志
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Bot 版" class="dropdown-title"><span class="title">Bot 版</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bot/userpage.html" class="nav-link">
+  我是观众，如何使用
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dev.html" class="nav-link">
+  快速搭建 Bot 教程
+</a></li><li class="dropdown-item"><!----> <a href="/bot/config.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Bot 配置说明
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dmsrc_api.html" class="nav-link">
+  弹幕源 API
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/fython/danmaqua-android" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub 仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/intro.html" class="nav-link">
+  介绍
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能" class="dropdown-title"><span class="title">功能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/features/subscription.html" class="nav-link">
+  订阅主播
+</a></li><li class="dropdown-item"><!----> <a href="/features/danmaku.html" class="nav-link">
+  弹幕服务
+</a></li><li class="dropdown-item"><!----> <a href="/features/filter.html" class="nav-link">
+  弹幕过滤
+</a></li><li class="dropdown-item"><!----> <a href="/features/floating.html" class="nav-link">
+  悬浮窗
+</a></li><li class="dropdown-item"><!----> <a href="/features/history.html" class="nav-link">
+  弹幕历史
+</a></li><li class="dropdown-item"><!----> <a href="/features/tips.html" class="nav-link">
+  小技巧
+</a></li></ul></div></div><div class="nav-item"><a href="/download.html" class="nav-link">
+  下载
+</a></div><div class="nav-item"><a href="/changelogs.html" class="nav-link">
+  更新日志
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Bot 版" class="dropdown-title"><span class="title">Bot 版</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bot/userpage.html" class="nav-link">
+  我是观众，如何使用
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dev.html" class="nav-link">
+  快速搭建 Bot 教程
+</a></li><li class="dropdown-item"><!----> <a href="/bot/config.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Bot 配置说明
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dmsrc_api.html" class="nav-link">
+  弹幕源 API
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/fython/danmaqua-android" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub 仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bot-配置说明"><a href="#bot-配置说明" class="header-anchor">#</a> Bot 配置说明</h1> <h2 id="核心配置-bot-config-js"><a href="#核心配置-bot-config-js" class="header-anchor">#</a> 核心配置 <code>bot.config.js</code></h2> <p>本配置文件仅对 Bot 核心进程生效，运行时变更的数据不会保存到这里。</p> <p>模板参照：<a href="https://github.com/danmaqua/danmaqua-telegrambot/blob/master/bot.config.js" target="_blank" rel="noopener noreferrer">https://github.com/danmaqua/danmaqua-telegrambot/blob/master/bot.config.js<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 这一段仅用于说明，实际使用请基于上面的模板进行修改。</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    dataDir<span class="token operator">:</span> <span class="token string">'./data'</span><span class="token punctuation">,</span>
+    dataSaveInterval<span class="token operator">:</span> <span class="token number">10000</span><span class="token punctuation">,</span>
+    logsDir<span class="token operator">:</span> <span class="token string">'./data/logs/bot'</span><span class="token punctuation">,</span>
+    botToken<span class="token operator">:</span> <span class="token string">'12345678:AAAAAAAAAAAAA'</span><span class="token punctuation">,</span>
+    botProxy<span class="token operator">:</span> <span class="token string">'http://127.0.0.1:10801'</span><span class="token punctuation">,</span>
+    botAdmins<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">107484754</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    danmakuSources<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><ul><li><code>dataDir</code>：数据库位置</li></ul> <p>运行时管理员设定的弹幕转发规则，会保存在这个目录的 <code>global.json</code> 和 <code>chats</code> 文件夹中。</p> <p>同时 Bot 与用户交互的状态信息会保存在 <code>user_states.json</code>。</p> <p>默认值：<code>./data</code></p> <ul><li><code>dataSaveInterval</code>：数据库保存间隔</li></ul> <p>数据库定期保存到文件中，单位为毫秒。</p> <p>默认值：<code>10000</code></p> <ul><li><code>botToken</code>：Bot Token 密钥</li></ul> <p>Telegram Bot API 需要这个 Token 来进行认证登录，你可以在 <code>@BotFather</code> 获取。</p> <p>请不要留空，否则无法连接。</p> <ul><li><code>botProxy</code>：Bot 代理服务器</li></ul> <p>Telegram Bot API 连接时所使用的代理服务器，支持 HTTP 代理。</p> <p>留空则代表直接连接，如 <code>http://127.0.0.1:8080</code> 则代表通过 HTTP 代理 <code>127.0.0.1:8080</code> 连接。</p> <p>默认值：<code>null</code></p> <ul><li><code>botAdmins</code>：Bot 管理员列表</li></ul> <p>可以在 Telegram 中使用 Bot 命令管理弹幕转发等操作的管理员列表。</p> <p>不支持 <code>@username</code> 形式，请使用第三方客户端或 ID 查询机器人进行获取自己的 ID。</p> <p>请不要留空，否则无法管理控制。</p> <ul><li><code>danmakuSources</code>：弹幕源支持列表</li></ul> <p>弹幕源服务端实现了直播平台弹幕协议的连接，向 Bot 核心部分提供标准化的弹幕数据。</p> <p>你需要按照格式进行接入弹幕源，请参照<a href="#%E5%BC%B9%E5%B9%95%E6%BA%90%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%A0%BC%E5%BC%8F">弹幕源客户端配置格式</a></p> <h3 id="弹幕源客户端配置格式"><a href="#弹幕源客户端配置格式" class="header-anchor">#</a> 弹幕源客户端配置格式</h3> <p>例子：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    id<span class="token operator">:</span> <span class="token string">'bilibili'</span><span class="token punctuation">,</span>
+    description<span class="token operator">:</span> <span class="token string">'哔哩哔哩直播弹幕'</span><span class="token punctuation">,</span>
+    type<span class="token operator">:</span> <span class="token string">'common-danmaku-ws'</span><span class="token punctuation">,</span>
+    value<span class="token operator">:</span> <span class="token punctuation">{</span>
+        url<span class="token operator">:</span> <span class="token string">'localhost:8001'</span><span class="token punctuation">,</span>
+        basicAuth<span class="token operator">:</span> <span class="token string">'testPassword'</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li><code>id</code>：唯一标识</li></ul> <p>在 Bot 中设置弹幕转发规则时，选择弹幕源将通过 id 来辨别。</p> <p>如默认实现中哔哩哔哩弹幕源 id 为 <code>bilibili</code>，注册转发时命令为 <code>/register_chat 123 123 bilibili</code>。</p> <ul><li><code>description</code>：描述</li></ul> <p>描述这个弹幕源连接的是哪一个直播平台，用于用户在 Bot 查询弹幕源支持列表时显示，可留空。</p> <ul><li><code>type</code>：弹幕源类型</li></ul> <p>目前仅支持 <code>common-danmaku-ws</code> 类型，即目前实现的 <a href="/bot/dmsrc_api.html">WebSocket 协议</a>。</p> <ul><li><code>value</code>：弹幕源配置值</li></ul> <p>配置值格式取决于你所使用的弹幕源。</p> <p>如 <code>common-danmaku-ws</code>，支持两种格式：</p> <p>如果 WebSocket 服务端允许直接连接，可以直接填入 WebSocket 服务端地址：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>value<span class="token operator">:</span> <span class="token string">'localhost:8001'</span>
+</code></pre></div><p>如果 WebSocket 服务端配置了 Basic Auth，则按以下格式填入：</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>value<span class="token operator">:</span> <span class="token punctuation">{</span>
+    url<span class="token operator">:</span> <span class="token string">'localhost:8001'</span><span class="token punctuation">,</span>
+    basicAuth<span class="token operator">:</span> <span class="token string">'testPassword'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="自带弹幕源配置-dmsrc-config-js"><a href="#自带弹幕源配置-dmsrc-config-js" class="header-anchor">#</a> 自带弹幕源配置 <code>dmsrc.config.js</code></h2> <p>本配置文件仅对项目附带的哔哩哔哩弹幕源和斗鱼弹幕源服务端生效，Bot 核心部分不会读取这个文件获取弹幕源列表。对于你自行创建的弹幕源服务端，读取本配置不是必须的。</p> <p>模板参照：<a href="https://github.com/danmaqua/danmaqua-telegrambot/blob/master/dmsrc.config.js" target="_blank" rel="noopener noreferrer">https://github.com/danmaqua/danmaqua-telegrambot/blob/master/dmsrc.config.js<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/danmaqua/danmaqua.github.io/edit/raw/docs/bot/config.md" target="_blank" rel="noopener noreferrer">帮助我们改善文档</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.2362f748.js" defer></script><script src="/assets/js/2.f87f6062.js" defer></script><script src="/assets/js/9.2eef09dd.js" defer></script>
+  </body>
+</html>
