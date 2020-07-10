@@ -69,7 +69,7 @@ module.exports = {
 
 `reconnectCron` 是弹幕源定期对所有房间重新连接的时间参数，格式请参照 [crontab](https://wiki.archlinux.org/index.php/Cron#Crontab_format)。
 
-其余参数在文件中有注释说明。
+其余参数在文件中有注释说明。要了解更多关于配置的说明，请移步到[这里](./config.html)。
 
 #### 2.2、Bot 本体配置
 
@@ -94,6 +94,8 @@ botProxy: 'http://127.0.0.1:8080',
 ```
 
 （选填）如果你在 `dmsrc.config.js` 修改了默认的弹幕源端口，或者自行搭建了弹幕源服务，需要在 `danmakuSources` 字段中进行修改。
+
+要了解更多关于配置的说明，请移步到[这里](./config.html)。
 
 #### 2.3、从 Bot v1 中迁移数据（选做）
 

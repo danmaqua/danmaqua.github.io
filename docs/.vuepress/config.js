@@ -31,10 +31,12 @@ module.exports = {
                         history: '弹幕历史',
                         tips: '小技巧'
                     },
-                    otherVers: {
+                    bot: {
                         title: 'Bot 版',
                         userDoc: '我是观众，如何使用',
-                        geekDoc: '如何搭建自己的 Bot'
+                        geekDoc: '快速搭建 Bot 教程',
+                        config: 'Bot 配置说明',
+                        dmSrc: '弹幕源 API'
                     }
                 })
             }

@@ -1,5 +1,5 @@
 function navBar({ 
-    introTitle, downloadTitle, githubTitle, changelogsTitle, features, otherVers
+    introTitle, downloadTitle, githubTitle, changelogsTitle, features, bot
 }) {
     return [
         { text: introTitle, link: '/intro.html' },
@@ -11,16 +11,18 @@ function navBar({
                 { text: features.filter, link: '/features/filter.html' },
                 { text: features.floating, link: '/features/floating.html' },
                 { text: features.history, link: '/features/history.html' },
-                { text: features.tips, link: '/features/tips.html' }
+                { text: features.tips, link: '/features/tips.html' },
             ]
         },
         { text: downloadTitle, link: '/download.html' },
         { text: changelogsTitle, link: '/changelogs.html' },
         {
-            text: otherVers.title,
+            text: bot.title,
             items: [
-                { text: otherVers.userDoc, link: '/bot/' },
-                { text: otherVers.geekDoc, link: '/bot/dev.html' }
+                { text: bot.userDoc, link: '/bot/userpage.html' },
+                { text: bot.geekDoc, link: '/bot/dev.html' },
+                { text: bot.config, link: '/bot/config.html' },
+                { text: bot.dmSrc, link: '/bot/dmsrc_api.html' },
             ]
         },
         { text: githubTitle, link: 'https://github.com/fython/danmaqua-android' },
