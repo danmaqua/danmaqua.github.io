@@ -35,6 +35,7 @@ module.exports = {
                         title: 'Bot 版',
                         userDoc: '我是观众，如何使用',
                         geekDoc: '快速搭建 Bot 教程',
+                        runWithDocker: '运行在 Docker',
                         config: 'Bot 配置说明',
                         dmSrc: '弹幕源 API'
                     }

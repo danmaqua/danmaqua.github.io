@@ -10,6 +10,8 @@
 
 保证运行环境安装有 Node.js 12+ 和 NPM 包管理，并在 Telegram `@BotFather` 申请你自己的 Bot 账号。
 
+**2020/7/11 更新：现在我们封装了一个 Docker 镜像大幅简化了搭建 Bot 实例的流程，想要了解如何使用 Docker 运行 Bot 实例可以[点击这里](./run_with_docker.html)**
+
 ### 0、了解 Bot v2 架构
 
 Bot v2 版本将程序分为 **Bot 本体+弹幕源服务器** 两部分：
