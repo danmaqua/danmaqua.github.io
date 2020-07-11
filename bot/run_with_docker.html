@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>使用 Docker 运行 Bot 实例 | 悬浮字幕</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="在 Android 上高亮显示直播翻译弹幕为悬浮字幕">
+    <link rel="preload" href="/assets/css/0.styles.06da0ae5.css" as="style"><link rel="preload" href="/assets/js/app.64fcae4e.js" as="script"><link rel="preload" href="/assets/js/2.f87f6062.js" as="script"><link rel="preload" href="/assets/js/13.9d193b47.js" as="script"><link rel="prefetch" href="/assets/js/10.5da1db94.js"><link rel="prefetch" href="/assets/js/11.e1801d97.js"><link rel="prefetch" href="/assets/js/12.a59fa598.js"><link rel="prefetch" href="/assets/js/14.94f0042e.js"><link rel="prefetch" href="/assets/js/15.dd92d794.js"><link rel="prefetch" href="/assets/js/16.61a9a818.js"><link rel="prefetch" href="/assets/js/17.bcac154f.js"><link rel="prefetch" href="/assets/js/18.ed0d6982.js"><link rel="prefetch" href="/assets/js/19.f692d6da.js"><link rel="prefetch" href="/assets/js/20.85e1d81d.js"><link rel="prefetch" href="/assets/js/21.ce2fda2d.js"><link rel="prefetch" href="/assets/js/22.b428f073.js"><link rel="prefetch" href="/assets/js/23.7325cea3.js"><link rel="prefetch" href="/assets/js/24.f9558858.js"><link rel="prefetch" href="/assets/js/3.a9437305.js"><link rel="prefetch" href="/assets/js/4.ed332ec4.js"><link rel="prefetch" href="/assets/js/5.7e64e596.js"><link rel="prefetch" href="/assets/js/6.1637c283.js"><link rel="prefetch" href="/assets/js/7.a232359c.js"><link rel="prefetch" href="/assets/js/8.5975328a.js"><link rel="prefetch" href="/assets/js/9.0800e5e5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.06da0ae5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/danmaqua-logo.png" alt="悬浮字幕" class="logo"> <span class="site-name can-hide">悬浮字幕</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/intro.html" class="nav-link">
+  介绍
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能" class="dropdown-title"><span class="title">功能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/features/subscription.html" class="nav-link">
+  订阅主播
+</a></li><li class="dropdown-item"><!----> <a href="/features/danmaku.html" class="nav-link">
+  弹幕服务
+</a></li><li class="dropdown-item"><!----> <a href="/features/filter.html" class="nav-link">
+  弹幕过滤
+</a></li><li class="dropdown-item"><!----> <a href="/features/floating.html" class="nav-link">
+  悬浮窗
+</a></li><li class="dropdown-item"><!----> <a href="/features/history.html" class="nav-link">
+  弹幕历史
+</a></li><li class="dropdown-item"><!----> <a href="/features/tips.html" class="nav-link">
+  小技巧
+</a></li></ul></div></div><div class="nav-item"><a href="/download.html" class="nav-link">
+  下载
+</a></div><div class="nav-item"><a href="/changelogs.html" class="nav-link">
+  更新日志
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Bot 版" class="dropdown-title"><span class="title">Bot 版</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bot/userpage.html" class="nav-link">
+  我是观众，如何使用
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dev.html" class="nav-link">
+  快速搭建 Bot 教程
+</a></li><li class="dropdown-item"><!----> <a href="/bot/run_with_docker.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  运行在 Docker
+</a></li><li class="dropdown-item"><!----> <a href="/bot/config.html" class="nav-link">
+  Bot 配置说明
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dmsrc_api.html" class="nav-link">
+  弹幕源 API
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/fython/danmaqua-android" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub 仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/intro.html" class="nav-link">
+  介绍
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能" class="dropdown-title"><span class="title">功能</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/features/subscription.html" class="nav-link">
+  订阅主播
+</a></li><li class="dropdown-item"><!----> <a href="/features/danmaku.html" class="nav-link">
+  弹幕服务
+</a></li><li class="dropdown-item"><!----> <a href="/features/filter.html" class="nav-link">
+  弹幕过滤
+</a></li><li class="dropdown-item"><!----> <a href="/features/floating.html" class="nav-link">
+  悬浮窗
+</a></li><li class="dropdown-item"><!----> <a href="/features/history.html" class="nav-link">
+  弹幕历史
+</a></li><li class="dropdown-item"><!----> <a href="/features/tips.html" class="nav-link">
+  小技巧
+</a></li></ul></div></div><div class="nav-item"><a href="/download.html" class="nav-link">
+  下载
+</a></div><div class="nav-item"><a href="/changelogs.html" class="nav-link">
+  更新日志
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Bot 版" class="dropdown-title"><span class="title">Bot 版</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bot/userpage.html" class="nav-link">
+  我是观众，如何使用
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dev.html" class="nav-link">
+  快速搭建 Bot 教程
+</a></li><li class="dropdown-item"><!----> <a href="/bot/run_with_docker.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  运行在 Docker
+</a></li><li class="dropdown-item"><!----> <a href="/bot/config.html" class="nav-link">
+  Bot 配置说明
+</a></li><li class="dropdown-item"><!----> <a href="/bot/dmsrc_api.html" class="nav-link">
+  弹幕源 API
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/fython/danmaqua-android" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub 仓库
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="使用-docker-运行-bot-实例"><a href="#使用-docker-运行-bot-实例" class="header-anchor">#</a> 使用 Docker 运行 Bot 实例</h1> <p>通过 Docker 和我们封装好的镜像来部署 Bot 实例有许多好处，你不必自行安装配置程序运行环境，如 Node.js、第三方 NPM 包等，尤其是想要迁移 Bot 实例到不同环境的另一台设备上运行时，这种方式会为你节省了许多时间精力。</p> <h2 id="如何在我的机器上通过-docker-部署运行"><a href="#如何在我的机器上通过-docker-部署运行" class="header-anchor">#</a> 如何在我的机器上通过 Docker 部署运行</h2> <p>在开始之前，请确保你已经安装好了 Docker。</p> <h3 id="_1、拉取镜像"><a href="#_1、拉取镜像" class="header-anchor">#</a> 1、拉取镜像</h3> <p>我们在 Docker Hub 上发布了封装好的镜像 <a href="https://hub.docker.com/r/siubeng/danmaqua-telegrambot" target="_blank" rel="noopener noreferrer">siubeng/danmaqua-telegrambot<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>，你可以通过以下命令拉取镜像的最新版：</p> <div class="language-sh extra-class"><pre class="language-sh"><code>docker pull siubeng/danmaqua-telegrambot
+</code></pre></div><h3 id="_2、准备数据目录"><a href="#_2、准备数据目录" class="header-anchor">#</a> 2、准备数据目录</h3> <p>在运行容器之前，我们在宿主机环境创建一个文件夹，用于存放 Bot 数据（包含弹幕转发规则、管理员列表、运行日志等）。</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token comment"># 在 /home/fython/data 创建一个文件夹 dmq-tgbot 准备存放 Bot 数据</span>
+<span class="token function">mkdir</span> -p /home/fython/data/dmq-tgbot
+</code></pre></div><h3 id="_3、部署运行"><a href="#_3、部署运行" class="header-anchor">#</a> 3、部署运行</h3> <p>接下来可以执行这一条命令（注：太长了所以分成多行）部署容器并运行，请注意修改命令里的参数：</p> <div class="language-sh extra-class"><pre class="language-sh"><code>docker run -d <span class="token punctuation">\</span>
+  --name dmq-tgbot <span class="token punctuation">\</span>
+  -v /home/fython/data/dmq-tgbot:/usr/src/dmq-bot/data <span class="token punctuation">\</span>
+  -e <span class="token assign-left variable">DMQ_BOT_TOKEN</span><span class="token operator">=</span><span class="token punctuation">[</span>你的 Bot Token<span class="token punctuation">]</span> <span class="token punctuation">\</span>
+  -e <span class="token assign-left variable">DMQ_BOT_PROXY</span><span class="token operator">=</span><span class="token punctuation">[</span>Bot API HTTP 代理<span class="token punctuation">]</span> <span class="token punctuation">\</span>
+  -e <span class="token assign-left variable">DMQ_BOT_ADMINS</span><span class="token operator">=</span><span class="token punctuation">[</span>Bot 管理员列表<span class="token punctuation">]</span> <span class="token punctuation">\</span>
+  siubeng/danmaqua-telegrambot
+</code></pre></div><h4 id="参数说明介绍"><a href="#参数说明介绍" class="header-anchor">#</a> 参数说明介绍</h4> <ol><li><p><code>-d</code> 代表执行后让容器在后台运行。</p></li> <li><p><code>--name dmq-tgbot</code> 代表容器命名为 <code>dmq-tgbot</code>，选一个好记的名字以便后续操作。</p></li> <li><p><code>-v /home/fython/data/dmq-tgbot:/usr/src/dmq-bot/data</code> 代表将宿主机的 <code>/home/fython/data/dmq-tgbot</code> 挂载在容器中的 Bot 数据目录 <code>/usr/src/dmq-bot/data</code> 上。</p></li> <li><p><code>-e XXXX=YYYY</code> 代表传入环境变量 <code>XXXX</code>，值设定为 <code>YYYY</code>，这里有三个需要修改的变量：</p> <ul><li><code>DMQ_BOT_TOKEN</code>：从 <code>@BotFather</code> 中获取的 Telegram Bot Token。</li> <li><code>DMQ_BOT_PROXY</code>：连接到 Telegram 服务器使用的 HTTP 代理，如果不需要请留空。例：<code>DMQ_BOT_PROXY=http://127.0.0.1:8080</code>。注：如果想使用宿主机上的代理，最简单的方式是添加 <code>--network host</code> 参数，但会带来一些副作用，具体请自学 Docker。</li> <li><code>DMQ_BOT_ADMINS</code>：允许控制 Bot 的管理员 Telegram ID 列表，并不是 username，你可以通过第三方客户端或者 ID 查询机器人获得自己的 ID，不可留空！多个 ID 间用逗号隔开。例：<code>DMQ_BOT_ADMINS=12345,56789</code></li></ul></li> <li><p><code>siubeng/danmaqua-telegrambot</code> 代表使用我们封装好的镜像。</p></li></ol> <h4 id="例子"><a href="#例子" class="header-anchor">#</a> 例子</h4> <p>假设我的 Token 是 <code>123456:AQUA</code>，不需要通过代理连接 Telegram API，管理员有两位 ID 分别是 <code>445</code> 和 <code>148</code>，则部署容器的命令参数应修改为：</p> <div class="language-sh extra-class"><pre class="language-sh"><code>docker run -d <span class="token punctuation">\</span>
+  --name dmq-tgbot <span class="token punctuation">\</span>
+  -v /home/fython/data/dmq-tgbot:/usr/src/dmq-bot/data <span class="token punctuation">\</span>
+  -e <span class="token assign-left variable">DMQ_BOT_TOKEN</span><span class="token operator">=</span><span class="token number">123456</span>:AQUA <span class="token punctuation">\</span>
+  -e <span class="token assign-left variable">DMQ_BOT_ADMINS</span><span class="token operator">=</span><span class="token number">445,148</span> <span class="token punctuation">\</span>
+  siubeng/danmaqua-telegrambot
+</code></pre></div><h2 id="如何在-paas-平台上部署运行"><a href="#如何在-paas-平台上部署运行" class="header-anchor">#</a> 如何在 PaaS 平台上部署运行</h2> <p>请参照具体平台如何部署 Docker 容器的教程。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/danmaqua/danmaqua.github.io/edit/raw/docs/bot/run_with_docker.md" target="_blank" rel="noopener noreferrer">帮助我们改善文档</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.64fcae4e.js" defer></script><script src="/assets/js/2.f87f6062.js" defer></script><script src="/assets/js/13.9d193b47.js" defer></script>
+  </body>
+</html>
