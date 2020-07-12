@@ -21,9 +21,10 @@ function navBar({
             items: [
                 { text: bot.userDoc, link: '/bot/userpage.html' },
                 { text: bot.geekDoc, link: '/bot/dev.html' },
-                { text: bot.runWithDocker, link: '/bot/run_with_docker.html' },
                 { text: bot.config, link: '/bot/config.html' },
+                { text: bot.runWithDocker, link: '/bot/run_with_docker.html' },
                 { text: bot.dmSrc, link: '/bot/dmsrc_api.html' },
+                { text: bot.schedulerUsage, link: '/bot/scheduler_usage.html' },
             ]
         },
         { text: githubTitle, link: 'https://github.com/fython/danmaqua-android' },

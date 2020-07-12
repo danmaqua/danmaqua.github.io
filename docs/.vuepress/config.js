@@ -34,10 +34,11 @@ module.exports = {
                     bot: {
                         title: 'Bot 版',
                         userDoc: '我是观众，如何使用',
-                        geekDoc: '快速搭建 Bot 教程',
-                        runWithDocker: '运行在 Docker',
+                        geekDoc: 'Bot 快速搭建教程',
+                        runWithDocker: 'Docker 部署教程',
                         config: 'Bot 配置说明',
-                        dmSrc: '弹幕源 API'
+                        dmSrc: '弹幕源 API',
+                        schedulerUsage: '计划任务使用教程'
                     }
                 })
             }
