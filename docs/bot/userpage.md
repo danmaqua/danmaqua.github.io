@@ -27,6 +27,7 @@ Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯�
 - 犬山たまき： [@dmq_tamaki](https://t.me/dmq_tamaki)（由 @dmq_suisei_admin_bot 实例提供）
 - 白銀ノエル： [@dmq_shiroganenoel](https://t.me/dmq_shiroganenoel)（由 @dmq_suisei_admin_bot 实例提供）
 - 物述有栖： [@dmq_Mononobe](https://t.me/dmq_Mononobe)（由 @ddmqbot 实例提供）
+- 潤羽るしあ： [@dmq_rushia](https://t.me/dmq_rushia)（由 @ionic_bond_bot 实例提供）
 - 欢迎其它维护者提交你的频道~
 
 暂时没有开发其他聊天工具（如 QQ 等）的 Bot 版本计划，如果你有现成的项目或群组，欢迎和我们一起交流如何改善海外 VTuber 的观看体验，我们的网站页面欢迎提交其他项目的传送门链接。
