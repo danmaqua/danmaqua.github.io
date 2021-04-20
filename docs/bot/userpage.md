@@ -13,7 +13,6 @@ Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯�
 - 高槻りつ： [@dmq_takatsukiritsu](https://t.me/s/dmq_takatsukiritsu)
 - 夏色まつり： [@dmq_natsuiromatsuri](https://t.me/s/dmq_natsuiromatsuri)
 - 白上吹雪： [@dmq_shirakamifubuki](https://t.me/s/dmq_shirakamifubuki)
-- 神楽七奈： [@dmq_KaguraNana](https://t.me/dmq_KaguraNana)（由 WordlessEcho 提供、维护）
 - 猫芒ベル： [@dmk_bell](https://t.me/dmk_bell)（由 @sudo_danmaku_bot 实例提供）
 - 泡沫メモリ： [@dmk_memory](https://t.me/dmk_memory)（由 @sudo_danmaku_bot 实例提供）
 - Paryi： [@dmk_paryi](https://t.me/dmk_paryi)（由 @sudo_danmaku_bot 实例提供）
@@ -21,7 +20,6 @@ Bot 会根据订阅设置连接到哔哩哔哩直播弹幕，将符合同传惯�
 - Soy/소이님： [@dmk_soy](https://t.me/dmk_soy)（由 @sudo_danmaku_bot 实例提供）
 - 雫るる： [@dmk_lulu](https://t.me/dmk_lulu)（由 @sudo_danmaku_bot 实例提供）
 - 兎田ぺこら： [@dmk_pekora](https://t.me/dmk_pekora)（由 @sudo_danmaku_bot 实例提供）
-- 百鬼あやめ： [@dmq_NakiriAyame](https://t.me/dmq_NakiriAyame)（由 WordlessEcho 提供、维护）
 - 星街彗星： [@dmq_suisei](https://t.me/dmq_suisei)（由 @dmq_suisei_admin_bot 实例提供）
 - 赤井はあと： [@dmq_akaihaato](https://t.me/dmq_akaihaato)（由 @dmq_suisei_admin_bot 实例提供）
 - 犬山たまき： [@dmq_tamaki](https://t.me/dmq_tamaki)（由 @dmq_suisei_admin_bot 实例提供）
